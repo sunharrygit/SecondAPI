@@ -21,7 +21,7 @@ namespace SecondAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "Harry Sun";
+            return "Les Jackson";
         }
 
         // POST api/values
