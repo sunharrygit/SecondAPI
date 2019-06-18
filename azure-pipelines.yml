@@ -26,7 +26,7 @@ steps:
 - task: DotNetCoreCLI@2
   displayName: 'dotnet publish --configuration $(buildConfiguration) --output $(Build.ArtfactStagingDirectory)'
   inputs:
-    command: publish
+    command: 'publish'
     publishWebProjects: false
     projects: 'src/SimpleAPI/SimpleAPI.csproj'
     # projects: '**/src/SimpleAPI/*.csproj'
