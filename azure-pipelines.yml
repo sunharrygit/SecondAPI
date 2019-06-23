@@ -32,7 +32,7 @@ steps:
     # projects: '**/src/SimpleAPI/*.csproj'
     arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPubish: true
-    # test if ssh connection working
+    # test if ssh connection work
 
 - task: PublishBuildArtifacts@1
   displayName: 'publish artifacts'
