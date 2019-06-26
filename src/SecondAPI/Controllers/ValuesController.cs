@@ -14,7 +14,7 @@ namespace SecondAPI.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "dotnet", "harry's playground" };
+            return new string[] { "dotnet", "my playground" };
         }
 
         // GET api/values/5
